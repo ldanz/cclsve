@@ -13,7 +13,20 @@ body {
   padding: 25px;
 }
 
+.picture-frame {
+  display: flex;
+  justify-content: center;
+}
+
 img {
   max-width: 100%;
   max-height: 50vh;
+}
+
+.body-text {
+  margin: 2em;
+}
+
+.body-text p {
+  margin: 2em auto;
 }

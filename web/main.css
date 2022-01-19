@@ -54,3 +54,38 @@ img {
     margin: 2em;
   }
 }
+
+.media {
+  font-size: 20px;
+  font-style: italic;
+  text-align: left;
+  padding: 10px 20px 10px 20px;
+  white-space: nowrap;
+}
+
+li {
+  display: inline;
+}
+
+.fb-icon {
+  color: blue;
+  transition color 0.2s;
+  font-size: 30px;
+  padding: 5px, 10px, 0, 10px;
+}
+
+.fb-icon:hover {
+  color: #aaaaaa;
+}
+
+.inst-icon {
+  color: red;
+  font-size: 30px;
+  padding: 0, 10px;
+  transition color 0.2s;
+  padding: 5px, 10px, 0, 10px;
+}
+
+.inst-icon:hover {
+  color: #aaaaaa;
+}

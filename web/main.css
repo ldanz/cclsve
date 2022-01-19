@@ -59,12 +59,16 @@ img {
   font-size: 20px;
   font-style: italic;
   text-align: left;
-  padding: 10px 20px 10px 20px;
+  /*padding: 10px 20px 10px 20px;*/
   white-space: nowrap;
 }
 
 li {
   display: inline;
+}
+
+.social-media a {
+  text-decoration: none;
 }
 
 .fb-icon {

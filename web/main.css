@@ -36,6 +36,10 @@ img {
   .picture-frame {
     flex-direction: column;
   }
+
+  .picture-frame .picture-adjacent {
+    margin: 0 2em;
+  }
 }
 
 @media (min-width: 1000px) {

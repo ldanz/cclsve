@@ -7,6 +7,8 @@ body {
 }
 
 .page-header {
+  display: flex;
+  flex-direction: column;
   background-color: #0081C7;
   color: white;
   text-align: center;
@@ -25,11 +27,9 @@ img {
 }
 
 .body-text {
+  display: flex;
+  flex-direction: column;
   margin: 2em;
-}
-
-.body-text p {
-  margin: 2em auto;
 }
 
 @media (max-width: 1000px) {
@@ -49,17 +49,13 @@ img {
   }
 
   .picture-frame .picture-adjacent {
-    /* TODO: align top with picture or center */
-    /* TODO: make text larger */
     margin: 2em;
   }
 }
 
 .media {
-  font-size: 20px;
   font-style: italic;
   text-align: left;
-  /*padding: 10px 20px 10px 20px;*/
   white-space: nowrap;
 }
 
@@ -74,7 +70,7 @@ li {
 .fb-icon {
   color: blue;
   transition color 0.2s;
-  font-size: 30px;
+  font-size: 3em;
   padding: 5px, 10px, 0, 10px;
 }
 
@@ -84,7 +80,7 @@ li {
 
 .inst-icon {
   color: red;
-  font-size: 30px;
+  font-size: 3em;
   padding: 0, 10px;
   transition color 0.2s;
   padding: 5px, 10px, 0, 10px;

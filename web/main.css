@@ -70,14 +70,10 @@ img {
   }
 }
 
-.media {
-  font-style: italic;
-  text-align: left;
-  white-space: nowrap;
-}
-
-li {
-  display: inline;
+.call-to-action {
+  background-color: #DAD9D5;
+  padding: 0.2em 2em;
+  text-align: center;
 }
 
 .social-media a {

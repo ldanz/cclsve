@@ -32,6 +32,23 @@ img {
   margin: 2em;
 }
 
+.button {
+  padding: 0.5em 1em;
+  border-radius: .5em;
+  background-color: #0081C7;
+  display: inline-block;
+  font-size: 1.2em;
+}
+
+.button:hover {
+  background-color: #9BC23B;
+}
+
+.button a {
+  color: white;
+  text-decoration: none;
+}
+
 @media (max-width: 1000px) {
   .picture-frame {
     flex-direction: column;

@@ -56,6 +56,11 @@ img {
   margin: 2em;
 }
 
+.page-content {
+  display: flex;
+  flex-direction: column;
+}
+
 .button {
   padding: 0.5em 1em;
   border-radius: .5em;
@@ -78,8 +83,16 @@ img {
     flex-direction: column;
   }
 
+  .picture-frame-padded {
+    padding: 2em 0;
+  }
+
   .picture-frame .picture-adjacent {
     margin: 0 2em;
+  }
+
+  .picture-frame-right {
+    background-color: #DAD9D5;
   }
 }
 
@@ -132,4 +145,8 @@ img {
 
 .inst-icon:hover {
   color: #aaaaaa;
+}
+
+.lever-intro {
+  margin: 0 2em;
 }

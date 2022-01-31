@@ -85,8 +85,15 @@ img {
 
 @media (min-width: 1000px) {
   .picture-frame {
-    flex-direction: row;
     margin: 2em;
+  }
+
+  .picture-frame-left {
+    flex-direction: row;
+  }
+
+  .picture-frame-right {
+    flex-direction: row-reverse;
   }
 
   .picture-frame .picture-adjacent {

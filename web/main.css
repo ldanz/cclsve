@@ -30,7 +30,8 @@ h3 {
   overflow: hidden;
 }
 
-.page-header {
+.page-title {
+  margin-top: 100px;
   display: flex;
   flex-direction: column;
   background-color: #0081C7;
@@ -153,4 +154,69 @@ img {
   margin: 2em;
   padding: 2em;
   box-shadow: .3em .3em .3em #7A7776;
+}
+
+.page-header {
+  position: fixed;
+  top: 0px;
+  height: 80px;
+  width: 100%;
+  background-color: white;
+  border-bottom-color: #0081C7;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  display: block;
+  padding: 1em 0;
+}
+
+.page-header .header-inside {
+  max-width: 1000px;
+  height: 100%;
+  margin: 0 auto;
+  display: block;
+}
+
+.page-header .header-left {
+  float: left;
+}
+
+.page-header .header-right {
+  float: right;
+}
+
+.page-header .header-content {
+  height: 100%;
+  margin: 0 2em;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.page-header img {
+  max-height: 5em;
+}
+
+.menu ul {
+  display: flex;
+  flex-direction: row;
+}
+
+.menu li {
+  list-style: none;
+  padding: 1em;
+}
+
+.menu li a {
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.3em;
+  color: #7A7776;
+}
+
+.menu li a:hover {
+  color: #0081C7;
+}
+
+.menu li a.current {
+  color: #0081C7;
 }

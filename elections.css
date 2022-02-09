@@ -1,0 +1,108 @@
+@import url(https://fonts.googleapis.com/css?family=Ubuntu:400,700);
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,700);
+
+body {
+  font-family: "Ubuntu", sans-serif;
+  margin: 0;
+}
+
+h1 {
+  font-size: 2.5em;
+  margin: 0.3em 0;
+}
+
+h2 {
+  font-size: 2em;
+  margin: 0.3em 0;
+}
+
+h3 {
+  font-size: 1.5em;
+  padding: 1em 0 0 0 ;
+}
+
+h4 {
+	display: flex;
+	font-size 1em;
+	font-weight: 700;
+	color: #5A7931;
+	padding: 0.7em 0;
+	margin: 0;
+	justify-content:center;
+}
+
+.page-header {
+  display: flex;
+  flex-direction: column;
+  background-color: #0081C7;
+  color: white;
+  text-align: center;
+  padding: 25px;
+}
+ .page-rest {
+ margin:auto;
+ max-width: 750px; 
+ padding: 5%; 
+}
+
+#image-vote {
+width: 30%;
+height: auto;
+float: left;
+padding: 0 2em 0.5em 0;
+}
+
+.redistricting {
+clear: both;  
+}
+
+.MOC-list {
+ display: flex;
+ flex-direction: row;
+ justify-content: center;
+ flex-wrap: wrap;
+ background-color: #DAD9D5;
+ margin: 2em;
+ padding: 1em;
+ box-shadow: .3em .3em .3em #7A7776; 
+}
+
+ul {
+display:flex;
+flex-direction: column; 
+margin: 0;
+justify-content: center;
+}
+
+.sen {
+padding: 0 3em 0 10%;
+}
+
+.cong {
+padding: 0 3em 0 10%;
+}
+
+.redist-maps {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	flex-shrink;
+	justify-content: space-between;
+	background-color: #DAD9D5;
+	margin: 2em;
+	padding: 0 4em 1em;
+	box-shadow: .3em .3em .3em #7A7776;	
+}
+
+#image-now {
+  display: flex; 
+  max-width: auto;
+  max-height: 40vh;
+  margin-right: 1em;
+}
+
+#image-2022 {
+  display: flex;
+  max-width: auto;
+  max-height: 40vh; 
+}

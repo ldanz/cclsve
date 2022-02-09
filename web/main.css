@@ -85,12 +85,61 @@ img {
 }
 
 @media (max-width: 1000px) {
+  /* image with captions */
+
   .picture-frame {
     flex-direction: column;
+  }
+
+  /* header with menu */
+
+  /* hide any elements that only belong to the wide view */
+  .wide-menu {
+    position: absolute;
+    left:     -10000px;
+    top:      auto;
+    width:    1px;
+    height:   1px;
+    overflow: hidden;
+  }
+
+  .toggle-menu ~ .menu {
+    height: 0px;
+    overflow: hidden;
+  }
+
+  .toggle-menu:checked ~ .menu {
+    height: auto;
+    overflow: auto;
+    background-color: white;
+  }
+
+  .button-toggle-menu {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 30px;
+    font-size: 40px;
+    color: #7A7776;
+  }
+
+  .header-left {
+    padding-left: 30px;
+    background-color: white;
+  }
+
+  .menu ul {
+    padding-inline-start: 0px;
+  }
+
+  .menu li {
+    padding: 0.5em 0;
   }
 }
 
 @media (min-width: 1000px) {
+  /* image with captions */
+
   .picture-frame {
     margin: 2em;
   }
@@ -101,6 +150,50 @@ img {
 
   .picture-frame-right {
     flex-direction: row-reverse;
+  }
+
+  /* header with menu */
+
+  /* hide any elements that only belong to the narrow view */
+  .narrow-menu {
+    position: absolute;
+    left:     -10000px;
+    top:      auto;
+    width:    1px;
+    height:   1px;
+    overflow: hidden;
+  }
+
+  .page-header .header-inside {
+    max-width: 1000px;
+    height: 100%;
+    margin: 0 auto;
+    display: block;
+  }
+
+  .page-header .header-left {
+    float: left;
+  }
+
+  .page-header .header-right {
+    float: right;
+  }
+
+  .page-header .header-content {
+    height: 100%;
+    margin: 0 2em;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .menu ul {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .menu li {
+    padding: 1em;
   }
 }
 
@@ -169,41 +262,12 @@ img {
   padding: 16px 0;
 }
 
-.page-header .header-inside {
-  max-width: 1000px;
-  height: 100%;
-  margin: 0 auto;
-  display: block;
-}
-
-.page-header .header-left {
-  float: left;
-}
-
-.page-header .header-right {
-  float: right;
-}
-
-.page-header .header-content {
-  height: 100%;
-  margin: 0 2em;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-}
-
 .page-header img {
   max-height: 68px;
 }
 
-.menu ul {
-  display: flex;
-  flex-direction: row;
-}
-
 .menu li {
   list-style: none;
-  padding: 1em;
 }
 
 .menu li a {

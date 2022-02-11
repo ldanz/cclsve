@@ -258,9 +258,7 @@ img {
   top: 0px;
   width: 100%;
   background-color: white;
-  border-bottom-color: #0081C7;
-  border-bottom-width: 1px;
-  border-bottom-style: solid;
+  box-shadow: 0 3px 5px rgb(0, 129, 199, 50%);
   display: block;
   padding: 16px 0;
 }

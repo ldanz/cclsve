@@ -21,6 +21,15 @@ h3 {
   margin: 0.5em 0;
 }
 
+h4 {
+	display: flex;
+	font-weight: 700;
+	color: #5A7931;
+	padding: 0.7em 0;
+	margin: 0;
+	justify-content:center;
+}
+
 .visually-hidden {
   position: absolute;
   left:     -10000px;
@@ -295,4 +304,73 @@ img {
 
 .menu li a.current {
   color: #0081C7;
+}
+
+.page-main-election {
+ margin:auto;
+ max-width: 750px; 
+ padding: 5%; 
+}
+
+.page-main-election h3 {
+	color:#5A7931;
+	padding: 1em 0 0 0 ;
+}
+
+#image-vote {
+width: 30%;
+height: auto;
+float: left;
+padding: 0 2em 0.5em 0;
+}
+
+.redistricting {
+clear: both;  
+}
+
+.MOC-list {
+ display: flex;
+ flex-direction: row;
+ justify-content: center;
+ flex-wrap: wrap;
+}
+
+.shadow-box{
+ background-color: #DAD9D5;
+ margin: 2em;
+ padding: 1em;
+ box-shadow: .3em .3em .3em #7A7776; 
+ }
+ 
+.Moc-list ul {
+display:flex;
+flex-direction: column; 
+margin: 0;
+justify-content: center;
+}
+
+.sen, .cong {
+padding: 0 3em 0 10%;
+}
+
+.redist-maps {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	flex-shrink;
+	justify-content: space-between;
+	padding: 0 4em 1em;
+}
+
+#image-now {
+  display: flex; 
+  max-width: auto;
+  max-height: 40vh;
+  margin-right: 1em;
+}
+
+#image-2022 {
+  display: flex;
+  max-width: auto;
+  max-height: 40vh; 
 }

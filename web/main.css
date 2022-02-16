@@ -82,6 +82,7 @@ img {
   background-color: #0081C7;
   display: inline-block;
   font-size: 1.2em;
+  font-weight: bold;
 }
 
 .button:hover {

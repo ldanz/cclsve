@@ -1,17 +1,39 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <title>CCL SVE</title>
     <link href="main.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
   </head>
   <body>
     <div class="page-header">
-      <h1>Citizens' Climate Lobby</h1>
-      <h2>Silicon Valley East</h2>
+      <div class="header-inside">
+        <div class="header-content">
+          <a href="/"><img src="images/cclsve_logo.png" alt="logo with text saying Silicon Valley East under stylized letters CCL"/></a>
+          <input class="toggle-menu visually-hidden" id="toggle-menu" type="checkbox"/>
+          <label class="button-toggle-menu narrow-menu" for="toggle-menu"><ion-icon name="menu-outline"/></label>
+          <nav class="menu">
+            <ul class="header-left header-side">
+              <li><a class="current" href="/">Home</a></li>
+              <li><a href="/five-levers">Five Levers</a></li>
+              <li><a href="/elections">Elections</a></li>
+            </ul>
+            <div class="header-right header-side">
+              <div class="button"><a href="https://citizensclimatelobby.org/join-citizens-climate-lobby/" target="_blank">Join CCL</a></div>
+            </div>
+          </nav>
+        </div>
+      </div>
     </div>
-    <h3 class="visually-hidden">Introduction</h3>
-    <div class="picture-frame">
-      <img src="chapter_meeting_photo.jpg" alt="photo of three women having a discussion while sitting at a table with food"/>
+    <div class="page-title">
+      <h1>
+        Citizens' Climate Lobby<br/>
+        <span class="subtitle">Silicon Valley East</span>
+      </h1>
+    </div><!-- page-title -->
+    <h2 class="visually-hidden">Introduction</h2>
+    <div class="picture-frame picture-frame-left">
+      <img src="images/chapter_meeting_photo.jpg" alt="photo of three women having a discussion while sitting at a table with food"/>
       <div class="picture-adjacent">
         <p><a href="https://citizensclimatelobby.org/">Citizens' Climate Lobby</a> empowers ordinary people to make their voice heard on climate change.  We're the Silicon Valley East local chapter, representing Fremont, Newark, Union City, Milpitas, and surrounding areas.</p>
         <p>We meet monthly on the second Saturday at 4 PM.  Due to the pandemic, our meetings are all currently virtual. Join us on <a href="https://www.meetup.com/Citizens-Climate-Lobby-Silicon-Valley-East/">Meetup</a> for call-in information.  We're friendly!</p>
@@ -20,17 +42,19 @@
     </div>
     <div class="body-text">
       <div class="call-to-action">
-        <h3>Want to help right now?</h3>
+        <h2>Want to help right now?</h2>
         <p>Take action in 5 minutes for climate solutions: <a href="https://cclusa.org/take-action">cclusa.org/take-action</a>.</p>
       </div>
       <div class="other-resources">
-        <h3 class="visually-hidden">Other resources</h3>
+        <h2 class="visually-hidden">Other resources</h2>
         <p>Volunteer web portal: <a href="https://community.citizensclimate.org/">community.citizensclimate.org</a></p>
         <p>California election information: <a href="https://www.sos.ca.gov/elections/">sos.ca.gov/elections</a></p>
+      </div>
+    </div>
+    <div class="page-footer columns">
+      <div class="col">
         <div class="social-media">
-          <p>
-            <span class="media"> Find us on Social Media: </span>
-          </p>
+          <h2>Social Media</h2>
           <p>
           <a class="fb-icon" href="https://www.facebook.com/CCLSVE/" target="_blank">
             <ion-icon name="logo-facebook"></ion-icon>
@@ -42,6 +66,20 @@
           <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
         </div>
       </div>
-    </div>
+      <div class="col">
+        <h2>Other CCL websites</h2>
+        <ul>
+          <li><a href="http://citizensclimatelobby.org/">Citizens' Climate Lobby</a></li>
+          <li><a href="https://community.citizensclimate.org/">CCL Community</a></li>
+          <li><a href="https://community.citizensclimate.org/groups/home/1321">CCL Community Silicon Valley East page</a></li>
+        </ul>
+      </div>
+      <div class="col">
+        <h2>Contact</h2>
+        <ul>
+        <li><a href="mailto:ccl.siliconvalleyeast@gmail.com">ccl.siliconvalleyeast@gmail.com</a></li>
+        </ul>
+      </div>
+    </div><!-- page-footer -->
   </body>
 </html>

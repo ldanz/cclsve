@@ -377,6 +377,29 @@ padding: 0 3em 0 10%;
   max-height: 40vh; 
 }
 
+.page-main-events {
+ margin:auto;
+ max-width: 750px; 
+ padding: 5%; 
+}
+
+.page-main-events  h2 {
+	Text-align: center;
+	padding: 0.7em 0 0;
+}
+
+.page-main-events  h3 {
+  justify-content: left;
+  padding: 0.7em 0 0;
+}
+
+#image-DC {
+width: 40%;
+height: auto;
+float: right;
+padding: 0 0 0.5em 2em;
+}
+
 .columns {
   display: flex;
 }

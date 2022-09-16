@@ -3,20 +3,39 @@ body {
   margin: 0;
   display: flex;
   flex-direction: column;
+  align-items: center;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+}
+
+.title-block {
+  margin: 2em 0;
+}
+
+.earth-day-logo {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  text-align: center;
+  align-items: center;
+  font-weight: bold;
 }
 
 h1 {
-  font-size: 14vw;
+  font-size: 100%;
   margin: 0;
-  text-align: center;
   color: #15527B;
 }
 
-h1 .subtitle {
-  font-size: 57%;
+.subtitle {
+  font-size: 50%;
   margin: 0;
   color: white;
   background-color: #90251B;
+  width: 80%;
   padding: .1em .2em;
 }
 
@@ -39,6 +58,10 @@ h2 {
   font-style: italic;
 }
 
+.bottom-tagline {
+  margin: 1em 0;
+}
+
 .details {
   text-align: center;
 }
@@ -52,17 +75,21 @@ h2 {
   padding: 20px;
 }
 
+img {
+  max-width: 100%;
+}
+
 @media (max-width: 1000px) {
   body {
-    margin: 0;
+    margin: 20px;
   }
 
-  h1 {
+  .content {
+    max-width: 95%;
+  }
+
+  .earth-day-logo {
     font-size: 14vw;
-  }
-
-  img {
-    max-width: 100%;
   }
 }
 
@@ -71,11 +98,11 @@ h2 {
     margin-top: 50px;
   }
 
-  h1 {
+  .earth-day-logo {
     font-size: 140px;
   }
 
-  img {
+  .content {
     max-width: 900px;
   }
 }

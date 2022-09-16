@@ -92,10 +92,6 @@ img {
   max-width: 100%;
 }
 
-.details .organizations {
-  font-size: 1.2em;
-}
-
 .logos a {
   text-decoration: none;
 }
@@ -137,6 +133,7 @@ img {
   }
 
   .details .organizations {
+    font-size: 1.2em;
     font-style: italic;
   }
 }

@@ -94,7 +94,6 @@ img {
 
 .details .organizations {
   font-size: 1.2em;
-  font-style: italic;
 }
 
 .logos a {
@@ -135,5 +134,9 @@ img {
 
   .details .when {
     font-size: 50px;
+  }
+
+  .details .organizations {
+    font-style: italic;
   }
 }

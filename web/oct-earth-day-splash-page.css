@@ -88,6 +88,11 @@ h2 {
   padding: 20px;
 }
 
+.details .where {
+  display: flex;
+  font-size: 1.1em;
+}
+
 img {
   max-width: 100%;
 }
@@ -113,6 +118,16 @@ img {
   .title-block {
     font-size: 14vw;
   }
+
+  .details .where {
+    flex-flow: column;
+    align-items: center;
+   }
+
+  .details .where .map-image {
+    margin-top: 20px;
+    max-width: 500px;
+  }
 }
 
 @media (min-width: 1000px) {
@@ -136,4 +151,12 @@ img {
     font-size: 1.2em;
     font-style: italic;
   }
-}
+
+  .details .where {
+    flex-flow: row;
+    align-items: center;
+   }
+
+  .details .where .where-info {
+    width: 50%;
+  }}

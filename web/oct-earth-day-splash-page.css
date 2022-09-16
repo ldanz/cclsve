@@ -1,0 +1,71 @@
+body {
+  font-family: "Ubuntu", sans-serif;
+  margin: 0;
+}
+
+h1 {
+  font-size: 140px;
+  margin: 0;
+  text-align: center;
+  color: #15527B;
+}
+
+h1 .subtitle {
+  font-size: 80px;
+  margin: 0;
+  color: white;
+  background-color: #90251B;
+  padding: .1em .2em;
+}
+
+p {
+  margin: 2px;
+}
+
+h2 {
+  margin: 2px;
+}
+
+.splash-image {
+    margin: 0 auto;
+    display: block;
+}
+
+.tagline {
+  text-align: center;
+  font-size: 28px;
+  font-style: italic;
+}
+
+.details {
+  text-align: center;
+}
+
+.details h2 {
+  font-style: bold;
+  font-size: 26px;
+}
+
+.details .detail {
+  padding: 20px;
+}
+
+@media (max-width: 1000px) {
+  body {
+    margin: 0;
+  }
+
+  img {
+    max-width: 100%;
+  }
+}
+
+@media (min-width: 1000px) {
+  body {
+    margin-top: 50px;
+  }
+
+  img {
+    max-width: 900px;
+  }
+}

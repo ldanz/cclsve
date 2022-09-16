@@ -1,17 +1,19 @@
 body {
   font-family: "Ubuntu", sans-serif;
   margin: 0;
+  display: flex;
+  flex-direction: column;
 }
 
 h1 {
-  font-size: 140px;
+  font-size: 14vw;
   margin: 0;
   text-align: center;
   color: #15527B;
 }
 
 h1 .subtitle {
-  font-size: 80px;
+  font-size: 57%;
   margin: 0;
   color: white;
   background-color: #90251B;
@@ -55,6 +57,10 @@ h2 {
     margin: 0;
   }
 
+  h1 {
+    font-size: 14vw;
+  }
+
   img {
     max-width: 100%;
   }
@@ -63,6 +69,10 @@ h2 {
 @media (min-width: 1000px) {
   body {
     margin-top: 50px;
+  }
+
+  h1 {
+    font-size: 140px;
   }
 
   img {

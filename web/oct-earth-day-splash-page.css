@@ -63,6 +63,9 @@ h2 {
 }
 
 .details {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
   text-align: center;
   font-size: 1.2em;
 }
@@ -91,6 +94,26 @@ h2 {
 .details .where {
   display: flex;
   font-size: 1.1em;
+}
+
+.details .where .location-detail {
+  margin-top: .5em;
+}
+
+.details .walks {
+  max-width: 500px;
+}
+
+.details .directions {
+  max-width: 600px;
+}
+
+.details .directions ul {
+  text-align: left;
+}
+
+.details .directions ul li {
+  margin-top: 0.5em;
 }
 
 img {

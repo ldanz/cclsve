@@ -116,6 +116,18 @@ h2 {
   margin-top: 0.5em;
 }
 
+.details .election {
+  text-align: left;
+}
+
+.details .election h2 {
+  text-align: center;
+}
+
+.details .election p {
+  margin-top: 1em;
+}
+
 img {
   max-width: 100%;
 }

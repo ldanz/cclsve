@@ -236,6 +236,18 @@ img {
   }
 }
 
+.special-event {
+  text-align: center;
+  border-color: #5A7931;
+  border-width: 3px;
+  border-style: solid;
+  margin: 2em;
+}
+
+.special-event h2 {
+  color: #5A7931;
+}
+
 .call-to-action {
   background-color: #DAD9D5;
   padding: 0.2em 2em;

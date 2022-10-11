@@ -132,12 +132,20 @@ img {
   max-width: 100%;
 }
 
+.logos {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
 .logos a {
   text-decoration: none;
 }
 
 .logos img {
   max-height: 150px;
+  max-width: 300px;
   margin: 20px;
 }
 

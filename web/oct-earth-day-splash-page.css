@@ -91,6 +91,11 @@ h2 {
   padding: 20px;
 }
 
+.details .gallery img {
+  max-height: 400px;
+  margin: 10px;
+}
+
 .details .where {
   display: flex;
   font-size: 1.1em;
